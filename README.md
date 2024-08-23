@@ -1,1 +1,2 @@
-# Phaser
+npm install
+npm run dev
