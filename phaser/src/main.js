@@ -23,6 +23,7 @@ var cursors;
 var score = 0;
 var scoreText;
 var bombs;
+var gameOver = false;
 
 var game = new Phaser.Game(config);
 // 加载
