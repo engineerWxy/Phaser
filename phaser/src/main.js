@@ -139,7 +139,7 @@ function create() {
     bombs = this.physics.add.group();
 
     // 监视两个物理对象的碰撞并使他们分离
-    this.physics.add.collider(player, platforms);
+    this.physics.addCollider(player, platforms);
     this.physics.add.collider(stars, platforms);
     this.physics.add.collider(bombs, platforms);
 
